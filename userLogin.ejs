@@ -1,0 +1,30 @@
+ <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Login or Signup</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="form-container">
+    <form id="login-form" action="/userLogin" method="post">
+      <h2>Login</h2>
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+      </div>
+      <div>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+      </div>
+      <button type="submit">Login</button>
+    </form>
+    <a href="/userSignup" target="_blank" ><button type="button" class="btn btn-primary"  style="right: 50px;
+      margin: 14px;
+      position: absolute;">
+      Sign Up
+    </button></a>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html> 
